@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Background5</title>
+        <style media="screen">
+        .container{
+            width: 50%;
+            height: 200px;
+            overflow: auto;
+            margin-left: 0 auto;
+        }
+        .static{ position: static; border: 2px solid green; }
+        .relative{
+            position: relative;
+            border: 2px solid red;
+            left: 2px;
+            bottom: 0;
+        }
+        .absolute{ position: absolute; border: 2px solid blue; left: 2px; bottom: 40px; }
+        .fixed{ position: fixed; border: 2px solid black; bottom: 0; right: 0; }
+        .sticky{ 
+            position: sticky;
+            border: 2px solid yellow;
+            top: 0;
+            left: 20px;
+            background: darkblue;
+            color: white;
+        }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <p class="sticky">
+                Ini adalah contoh dari posisi sticky
+            </p>
+
+            <p class="static">
+                <b>Ini adalah contoh dari position static</b><br>
+                Penerapan ilmu Kimia di bidang industri, ilmu Kimia seringkali sangat dibutuhkan. Mesin-mesin di industri membutuhkan logam yang baik dengan sifat tertentu yang sesuai dengan kondisi dan bahan-bahan yang digunakan. Seperti semen, kayu, cat, beton, dsb. dihasilkan melalui riset yang berdasarkan ilmu Kimia. Kain sintetis 
+                yang Anda gunakan juga merupakan hasil penerapan ilmu Kimia
+            </p>
+            <p class="relative">
+                <b>Ini adalah contoh dari position relative</b><br>
+                Penerapan ilmu Kimia di bidang industri, ilmu Kimia seringkali sangat dibutuhkan. Mesin-mesin di industri membutuhkan logam yang baik dengan sifat tertentu yang sesuai dengan kondisi dan bahan-bahan yang digunakan. Seperti semen, kayu, cat, beton, dsb. dihasilkan melalui riset yang berdasarkan ilmu Kimia. Kain sintetis 
+                yang Anda gunakan juga merupakan hasil penerapan ilmu Kimia
+            </p>
+            <p class="absolute">
+                <b>Ini adalah contoh dari position absolute</b><br>
+                Penerapan ilmu Kimia di bidang industri, ilmu Kimia seringkali sangat dibutuhkan. Mesin-mesin di industri membutuhkan logam yang baik dengan sifat tertentu yang sesuai dengan kondisi dan bahan-bahan yang digunakan. Seperti semen, kayu, cat, beton, dsb. dihasilkan melalui riset yang berdasarkan ilmu Kimia. Kain sintetis 
+                yang Anda gunakan juga merupakan hasil penerapan ilmu Kimia
+            </p>
+
+            <p class="fixed">
+                Ini adalah contoh dari position fixed
+            </p>
+        </div>
+    </body>
+</html>
